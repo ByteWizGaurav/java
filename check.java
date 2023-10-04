@@ -13,6 +13,8 @@ class A {
         System.out.println(y);
     }
 }
+class jadugar{
+};
 class check {
     public static void main(String[] args) {
         A obj = new A();
