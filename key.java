@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.FlowLayout;
 import java.awt.TextField;
+import java.awt.Color;
 
 class Antshant extends Frame implements ActionListener, KeyListener {
 	Label l = new Label("0");
@@ -20,6 +21,7 @@ class Antshant extends Frame implements ActionListener, KeyListener {
 		add(t);
 		setLayout(f);
 		b.addActionListener(this);
+		b.setForeground(Color.blue);
 		t.addKeyListener(this);
 		requestFocus();
 	}
