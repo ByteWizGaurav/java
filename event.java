@@ -16,9 +16,9 @@ class MyFrame extends Frame implements ActionListener{
     }
 }
 
-class check{
+class event{
     public static void main(String[] args) {
         MyFrame obj = new MyFrame();
-        obj.setVisible(true);
+        obj.setVisible(false);
     }
 }
